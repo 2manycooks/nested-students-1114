@@ -1,5 +1,4 @@
 import react, {Component} from 'react'
-import Roster from './components/Roster';
 
 let roster = [
   {
@@ -70,9 +69,7 @@ class App extends Component {
   render() {
     return(
       <>
-        <Roster 
-        roster = {roster}
-        />
+       
       </>
     )
   }
